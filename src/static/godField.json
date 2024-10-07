@@ -1,0 +1,92 @@
+[
+    {
+        "name": "巧克力棒",
+        "effect": "+1",
+        "description": "攻1",
+        "type": "weapon"
+    },
+    {
+        "name": "鞭子",
+        "effect": "+2",
+        "description": "攻2",
+        "type": "weapon"
+    },
+    {
+        "name": "拳擊",
+        "effect": "+3",
+        "description": "攻3",
+        "type": "weapon"
+    },
+    {
+        "name": "斧頭",
+        "effect": "+4",
+        "description": "攻4",
+        "type": "weapon"
+    },
+    {
+        "name": "鎖鏈鐮刀",
+        "effect": "+5",
+        "description": "攻5",
+        "type": "weapon"
+    },
+    {
+        "name": "皮帽",
+        "effect": "-1",
+        "description": "守1",
+        "type": "armor"
+    },
+    {
+        "name": "皮衣",
+        "effect": "-2",
+        "description": "守2",
+        "type": "armor"
+    },
+    {
+        "name": "鐵護手",
+        "effect": "-3",
+        "description": "守3",
+        "type": "armor"
+    },
+    {
+        "name": "鐵之盾",
+        "effect": "-4",
+        "description": "守4",
+        "type": "armor"
+    },
+    {
+        "name": "鐵之鎧甲",
+        "effect": "-5",
+        "description": "守5",
+        "type": "armor"
+    },
+    {
+        "name": "葉子上的露珠",
+        "effect": "hp3",
+        "description": "HP+3",
+        "type": "sundries"
+    },
+    {
+        "name": "黎明露珠",
+        "effect": "hp4",
+        "description": "HP+4",
+        "type": "sundries"
+    },
+    {
+        "name": "微笑露珠",
+        "effect": "hp5",
+        "description": "HP+5",
+        "type": "sundries"
+    },
+    {
+        "name": "心之露珠",
+        "effect": "hp10",
+        "description": "HP+10",
+        "type": "sundries"
+    },
+    {
+        "name": "浪漫水",
+        "effect": "hp15",
+        "description": "HP+15",
+        "type": "sundries"
+    }
+]
