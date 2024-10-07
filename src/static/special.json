@@ -1,0 +1,14 @@
+[
+    {
+        "name": "祈禱",
+        "effect": "",
+        "description": "放棄回合並抽取一張牌",
+        "type": "pray"
+    },
+    {
+        "name": "放棄",
+        "effect": "-0",
+        "description": "放棄防禦",
+        "type": "armor"
+    }
+]
