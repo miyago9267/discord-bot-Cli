@@ -39,13 +39,13 @@ client.on(Events.MessageCreate,(message) => {
         if ((arr[0]) !== "隨機") return;
 
         if (reDie == true){
-            message.channel.send(`還沒死透`);
+            message.reply(`還沒死透`);
         } else{
             let p = getRandomInt(1, (arr.length - 1));
             if (arr[p] == undefined) {
-                message.channel.send(`你沒放選項`);
+                message.reply(`你沒放選項`);
             } else {
-                message.channel.send(`${arr[p]}`);
+                message.reply(`${arr[p]}`);
             }
         }
     }
@@ -58,7 +58,7 @@ client.on(Events.MessageCreate,(message) => {
         if ((num[0]) !== "因數") return;
         
         if (num[1] == undefined){
-            message.channel.send(`你沒放數字`);
+            message.reply(`你沒放數字`);
             return;
         } 
             
@@ -74,9 +74,9 @@ client.on(Events.MessageCreate,(message) => {
             }
         }
         if ((factor.length) == 2){
-            message.channel.send(`${num[1]} 的因數有 [${factor} ]   這是質數`);
+            message.reply(`${num[1]} 的因數有 [${factor} ]   這是質數`);
         } else{
-            message.channel.send(`${num[1]} 的因數有 [${factor} ]`);
+            message.reply(`${num[1]} 的因數有 [${factor} ]`);
         }
     }
     // 單抽
