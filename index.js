@@ -24,11 +24,15 @@ function getRandomInt(min, max) {
 
 client.on(Events.MessageCreate,(message) => {
     if (message.author.bot) return;
-
+    
+    const onlyCli = /^(?:克里)+$/u.test(message);
+    const onlyCli2 = /^(?:cli)+$/u.test(message.content.toLowerCase());
     if (message.content === "戳") {
         message.reply("嗚哇><");
     } else if (message.content === "嗚哇><") {
         message.channel.send("？我沒戳你");
+    } else if (onlyCli == true | onlyCli2 == true) {
+        message.reply("嗨我是克里");
     }
 
     // 隨機
